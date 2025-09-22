@@ -2,8 +2,11 @@
 name = "shaperglot-cli"
 version = "1.2.0"
 edition = "2021"
+license = "Apache-2.0"
 authors = ["The Shaperglot Authors"]
 description = "Test font files for OpenType language support"
+homepage = "https://github.com/googlefonts/shaperglot"
+repository = "https://github.com/googlefonts/shaperglot"
 
 [[bin]]
 path = "src/main.rs"
