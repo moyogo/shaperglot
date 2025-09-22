@@ -4,12 +4,15 @@ version = "1.2.0"
 edition = "2021"
 authors = ["The Shaperglot Authors"]
 description = "Test font files for OpenType language support"
+
 [[bin]]
 path = "src/main.rs"
 name = "shaperglot"
 
 [dependencies]
-shaperglot = { path = "../shaperglot-lib", features = ["colored"] }
+shaperglot = { version = "1.2.0", path = "../shaperglot-lib", features = [
+    "colored"
+] }
 skrifa = { workspace = true }
 itertools = { workspace = true }
 clap = { version = "4.5.43", features = ["derive"] }
